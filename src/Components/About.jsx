@@ -76,7 +76,7 @@ function About() {
       <Container>
         
           <img className='z-1 position-absolute end-50' src="./Group 26.png" alt="" />
-          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-5' src='./eak.jpg' />
+          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm' src='./eak.jpg' />
           <img className='element' src="./Oval.png" alt="" />
 
           <div className='space text-center text-nowrap'>
