@@ -91,7 +91,7 @@ function Contact() {
           <Row>
             <div className='text-center text-nowrap'>
               <h2>Contact</h2>
-              <p>I would love to hear about your project and <br /> 
+              <p className='p-size'>I would love to hear about your project and <br /> 
                 how I could help. Please fill in the form, and <br /> I'll get back 
                 to you as soon as possible.
               </p>
@@ -100,15 +100,15 @@ function Contact() {
             <Form>
               <Form.Group className="mt-5 mb-5">
                 <Form.Label>Name</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Email</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
+                <Form.Control required as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
               </Form.Group>
               
               <div className='d-flex justify-content-end'>

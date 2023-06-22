@@ -107,7 +107,17 @@ function Skills() {
               </span>
               
               <span className='pb-3'>
-                <h2>React JS</h2>
+                <h2>React</h2>
+                <p>2 Years Experience</p>
+              </span>
+
+              <span className='pb-3'>
+                <h2>Redux Toolkit</h2>
+                <p>2 Years Experience</p>
+              </span>
+
+              <span className='pb-3'>
+                <h2>Git/Github</h2>
                 <p>2 Years Experience</p>
               </span>
               

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "MEME GENERATOR",
-    "logo": "./Bitmap-4.png",
+    "logo": "./mg.jpg",
     "skill": "REACT CSS",
     "website": "https://memegenerator-ea.netlify.app/",
     "github": "https://github.com/eakelvin/Meme-Generator.git"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "DEV-JOBS APP",
-    "logo": "./Bitmap-5.png",
+    "logo": "./dev.jpg",
     "skill": "REACT BOOTSTRAP",
     "website": "https://devjobs-ea.netlify.app/",
     "github": "https://github.com/eakelvin/DevJobs-Project.git"
@@ -33,11 +33,11 @@
   },
   {
     "id": 5,
-    "title": "NOTE APP",
-    "logo": "./Bitmap-2.png",
-    "skill": "REACT CSS",
-    "website": "",
-    "github": ""
+    "title": "SPIN THE BOTTLE GAME",
+    "logo": "./stb.jpg",
+    "skill": "TAILWIND JAVASCRIPT",
+    "website": "https://spinthebottleklm.netlify.app/",
+    "github": "https://github.com/blameleo/spin-the-bottle.git"
   },
   {
     "id": 6,

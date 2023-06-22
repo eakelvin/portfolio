@@ -11,7 +11,12 @@
 .space {
     padding-top: 28rem !important;
 }
-
+.font {
+    font-size: 40px;
+}
+.p-size {
+    font-size: 16px;
+}
 .size {
     width: 400px;
     height: 600px;
@@ -28,7 +33,7 @@
 }
 .oval {
     position: absolute;
-    bottom: calc(75% - 1690px);
+    bottom: calc(75% - 1995px);
 }
 .oval-one {
     position: absolute;

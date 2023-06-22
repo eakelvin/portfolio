@@ -76,16 +76,16 @@ function About() {
       <Container>
         
           <img className='z-1 position-absolute end-50' src="./Group 26.png" alt="" />
-          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-2' src='./meme.jpg' />
+          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-5' src='./eak.jpg' />
           <img className='element' src="./Oval.png" alt="" />
 
           <div className='space text-center text-nowrap'>
-          <h2>Nice to meet you! <br /> 
+          <span className='font'>Nice to meet you! <br /> 
           <span className='border-bottom border-success border-5'>I'm Kelvin Akaba</span>.
-          </h2>
+          </span>
           <p className='lh-base mt-4'>Based in Ghana, I'm a front-end developer <br />
-            passionate about building accessible web apps  <br />
-             that users love.
+            passionate about building accessible web <br />
+             apps that users love.
           </p>
           <div className='mt-4 mb-4'>
             <Button style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
