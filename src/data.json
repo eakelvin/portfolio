@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "MEME GENERATOR",
+    "logo": "./Bitmap-4.png",
+    "skill": "REACT CSS",
+    "website": "https://memegenerator-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/Meme-Generator.git"
+  },
+  {
+    "id": 2,
+    "title": "DEV-JOBS APP",
+    "logo": "./Bitmap-5.png",
+    "skill": "REACT BOOTSTRAP",
+    "website": "https://devjobs-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/DevJobs-Project.git"
+  },
+  {
+    "id": 3,
+    "title": "E-COMMERCE APP",
+    "logo": "./Bitmap.png",
+    "skill": "REACT BOOTSTRAP",
+    "website": "",
+    "github": ""
+  },
+  {
+    "id": 4,
+    "title": "TASK TRACKER APP",
+    "logo": "./Bitmap-1.png",
+    "skill": "REACT BOOTSTRAP",
+    "website": "",
+    "github": ""
+  },
+  {
+    "id": 5,
+    "title": "NOTE APP",
+    "logo": "./Bitmap-2.png",
+    "skill": "REACT CSS",
+    "website": "",
+    "github": ""
+  },
+  {
+    "id": 6,
+    "title": "MAVE SPORTS",
+    "logo": "./Bitmap-3.png",
+    "skill": "REACT BOOTSTRAP",
+    "website": "",
+    "github": ""
+  }
+  
+
+]

@@ -1,0 +1,72 @@
+.c {
+    color: #151515;
+    color: #4EE1A0;
+    color: #242424;
+    color: #D9D9D9;
+    color: #FFFFFF;  
+}
+.text-size {
+    font-size: 48px !important;
+}
+.space {
+    padding-top: 28rem !important;
+}
+
+.size {
+    width: 400px;
+    height: 600px;
+}
+.size-sm {
+    width: 250px;
+    height: 400px;
+}
+
+.element {
+    position: absolute;
+    right: 0;
+    top: calc(75% - 160px);
+}
+.oval {
+    position: absolute;
+    bottom: calc(75% - 1690px);
+}
+.oval-one {
+    position: absolute;
+    top: 900px;
+    right: -150px;
+}
+.element-two {
+    position: absolute;
+    bottom: 0px;
+    left: -250px;
+}
+.element-2b {
+    position: absolute;
+    bottom: -80px;
+    left: -300px;
+}
+.element-three {
+    position: absolute;
+    left: -250px;
+    z-index: 1;
+}
+.element-3b {
+    position: absolute;
+    z-index: 2;
+    top: 175px;
+}
+.element-3c {
+    position: absolute;
+    left: calc(90% - 10px);
+    top: 380px;
+
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 1000px;
+}
+.pad {
+    margin-top: 10rem;
+}
