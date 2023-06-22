@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './Header';
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mfa464l', 'template_qtp3cwu', form.current, 'mNwpv1i4kDn_Ww-E2')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div style={{backgroundColor: "#242424"}}>
       <div className='d-none d-lg-block d-xl-block d-xxl-block'>
@@ -22,21 +37,21 @@ function Contact() {
             </Col>
 
             <Col>
-            <Form>
+            <Form ref={form} onSubmit={sendEmail}>
               <Form.Group className="mb-3 pt-3">
                 <Form.Label>Name</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" name='user_name' />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Email</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" name='user_email' />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
+                <Form.Control required name='message' as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
               </Form.Group>
               <div className='mt-5 d-flex justify-content-end'>
-                  <Button className='border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
+                  <Button type="submit" value="Send" className='border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
               </div>
             </Form>
             </Col>
@@ -56,25 +71,25 @@ function Contact() {
             </div>
             
             
-            <Form>
+            <Form ref={form} onSubmit={sendEmail}>
               <div className='d-flex justify-content-center'>
               <Col sm={7}>
               <Form.Group className="mb-3 mt-5">
                 <Form.Label>Name</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" name='user_name' />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Email</Form.Label>
-                <Form.Control style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" name='user_email' />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
+                <Form.Control required name='message' as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
               </Form.Group>
               </Col>
               </div>
               <div className='d-flex justify-content-end me-5 pe-5 pt-1'>
-                  <Button className='me-5 border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
+                  <Button type="submit" value="Send" className='me-5 border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
               </div>
             </Form>
 
@@ -97,22 +112,22 @@ function Contact() {
               </p>
             </div>
             
-            <Form>
+            <Form ref={form} onSubmit={sendEmail}>
               <Form.Group className="mt-5 mb-5">
                 <Form.Label>Name</Form.Label>
-                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="text" placeholder="" name='user_name' />
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Email</Form.Label>
-                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" />
+                <Form.Control required style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' type="email" placeholder="" name='user_email' />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control required as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
+                <Form.Control required name='message' as="textarea" rows={3} style={{backgroundColor: "#242424"}} className='border-0 border-bottom text-light' />
               </Form.Group>
               
               <div className='d-flex justify-content-end'>
-                  <Button className='border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
+                  <Button type="submit" value="Send" className='border-0 border-bottom border-success border-5' variant="dark">SEND MESSAGE</Button>
               </div>
             </Form>
             <div className='position-relative mb-5'>
