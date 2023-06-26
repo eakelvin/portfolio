@@ -41,11 +41,11 @@
   },
   {
     "id": 6,
-    "title": "MAVE SPORTS",
-    "logo": "./Bitmap-3.png",
-    "skill": "REACT BOOTSTRAP",
-    "website": "",
-    "github": ""
+    "title": " NOTE APP",
+    "logo": "./notetaker.jpg",
+    "skill": "REACT REDUX TAILWIND",
+    "website": "https://notetaker-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/note-app.git"
   }
   
 
