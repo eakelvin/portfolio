@@ -21,21 +21,21 @@
     "logo": "./Bitmap.png",
     "skill": "REACT BOOTSTRAP",
     "website": "",
-    "github": ""
+    "github": "https://github.com/eakelvin/ecommerce-app.git"
   },
   {
     "id": 4,
-    "title": "TASK TRACKER APP",
+    "title": "EXPENSE TRACKER APP",
     "logo": "./Bitmap-1.png",
-    "skill": "REACT BOOTSTRAP",
+    "skill": "REACT, REDUX, TAILWIND",
     "website": "",
-    "github": ""
+    "github": "https://github.com/eakelvin/expense-tracker.git"
   },
   {
     "id": 5,
     "title": "SPIN THE BOTTLE GAME",
     "logo": "./stb.jpg",
-    "skill": "TAILWIND JAVASCRIPT",
+    "skill": "TAILWIND, JAVASCRIPT",
     "website": "https://spinthebottleklm.netlify.app/",
     "github": "https://github.com/blameleo/spin-the-bottle.git"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": " NOTE APP",
     "logo": "./notetaker.jpg",
-    "skill": "REACT REDUX TAILWIND",
+    "skill": "REACT, REDUX, TAILWIND",
     "website": "https://notetaker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/note-app.git"
   }
