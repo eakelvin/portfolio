@@ -18,15 +18,15 @@
   {
     "id": 3,
     "title": "E-COMMERCE APP",
-    "logo": "./Bitmap.png",
-    "skill": "REACT BOOTSTRAP",
+    "logo": "./ecommerce.jpg",
+    "skill": "REACT BOOTSTRAP FIREBASE",
     "website": "https://ecommerce-ea.netlify.app/",
     "github": "https://github.com/eakelvin/ecommerce-app.git"
   },
   {
     "id": 4,
     "title": "EXPENSE TRACKER APP",
-    "logo": "./Bitmap-1.png",
+    "logo": "./expense.jpg",
     "skill": "REACT, REDUX, TAILWIND",
     "website": "https://expensetracker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/expense-tracker.git"
