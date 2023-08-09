@@ -37,7 +37,7 @@
 }
 .oval-one {
     position: absolute;
-    top: 900px;
+    top: -60px;
     right: -150px;
 }
 .element-two {
@@ -59,12 +59,12 @@
     position: absolute;
     z-index: 2;
     top: 175px;
+    left: 100px;
 }
 .element-3c {
     position: absolute;
-    left: calc(90% - 10px);
+    left: calc(90% - 20px);
     top: 380px;
-
 }
 
 .right {

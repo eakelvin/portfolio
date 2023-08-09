@@ -44,7 +44,7 @@ function Skills() {
       </div>
 
       <div className='d-none d-md-block d-sm-block d-lg-none'>
-        <Container>
+        <Container className='mb-5'>
           <Row className=''>
             <Col>
               <h2>HTML</h2>
@@ -80,7 +80,7 @@ function Skills() {
           </Row>
 
           <Col className=''>
-              <div className='relative mb-5'>
+              <div className='position-relative'>
                 <img className='oval-one' src="./g26.png" alt="" />
               </div>
           </Col>

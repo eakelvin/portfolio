@@ -41,7 +41,7 @@ function About() {
     </div>
 
     <div className='d-none d-md-block d-sm-block d-lg-none'>
-      <Container className='mb-5 pb-5 border-bottom'>
+      <Container fluid className='mb-5 pb-5 border-bottom'>
         <Row>
             <div className='col-md-8 col-sm-6'>
                 <div className='mt-5'>
@@ -63,7 +63,7 @@ function About() {
             </div>
 
             <div className='col-md-4 col-sm-6'>
-              <img className='element-3c' src="./Oval.svg" alt="" />
+              {/* <img className='element-3c' src="./Oval.svg" alt="" /> */}
               <div>
                 <img className='size-sm mt-5' src='./meme.jpg' />
               </div>

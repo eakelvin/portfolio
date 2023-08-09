@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
-
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
+
 
 function Projects(props) {
   return (
@@ -15,12 +16,19 @@ function Projects(props) {
               <Card.Text className='pt-2'>{props.skill}</Card.Text>
               <div className='d-flex'>
                 <div className=''>
-                    <Button style={{backgroundColor: "#151515"}} className='border border-0 border-bottom border-success border-5' variant="dark">
-                      VIEW PROJECT</Button>
+                    <Button 
+                      onClick={() => window.open(props.website)} 
+                      style={{backgroundColor: "#151515"}} 
+                      className='border border-0 border-bottom border-success border-5' variant="dark">
+                      VIEW PROJECT
+                    </Button>
                 </div>
                 <div className='mx-auto'>
-                    <Button style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">
-                      VIEW CODE</Button>
+                    <Button
+                      onClick={() => window.open(props.github)} 
+                      style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">
+                      VIEW CODE
+                      </Button>
                 </div>
               </div>
             </Card.Body>
