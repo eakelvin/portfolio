@@ -12,7 +12,7 @@ function Projects(props) {
         <Card className='border border-0'>
             <Card.Img variant="top" src={props.logo} />
             <Card.Body className='text-light' style={{backgroundColor: "#151515"}}>
-              <Card.Title>{props.title}</Card.Title>
+              <Card.Title className='fw-bold'>{props.title}</Card.Title>
               <Card.Text className='pt-2'>{props.skill}</Card.Text>
               <div className='d-flex'>
                 <div className=''>

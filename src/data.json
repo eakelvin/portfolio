@@ -3,7 +3,7 @@
     "id": 1,
     "title": "MEME GENERATOR",
     "logo": "./mg.jpg",
-    "skill": "REACT CSS",
+    "skill": "REACT & VANILLA CSS",
     "website": "https://memegenerator-ea.netlify.app/",
     "github": "https://github.com/eakelvin/Meme-Generator.git"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "DEV-JOBS APP",
     "logo": "./dev.jpg",
-    "skill": "REACT BOOTSTRAP",
+    "skill": "REACT & BOOTSTRAP",
     "website": "https://devjobs-ea.netlify.app/",
     "github": "https://github.com/eakelvin/DevJobs-Project.git"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "E-COMMERCE APP",
     "logo": "./ecommerce.jpg",
-    "skill": "REACT BOOTSTRAP FIREBASE",
+    "skill": "REACT, BOOTSTRAP & FIREBASE",
     "website": "https://ecommerce-ea.netlify.app/",
     "github": "https://github.com/eakelvin/ecommerce-app.git"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "EXPENSE TRACKER APP",
     "logo": "./expense.jpg",
-    "skill": "REACT, REDUX, TAILWIND",
+    "skill": "REACT, REDUX & TAILWIND",
     "website": "https://expensetracker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/expense-tracker.git"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "SPIN THE BOTTLE GAME",
     "logo": "./stb.jpg",
-    "skill": "TAILWIND, JAVASCRIPT",
+    "skill": "TAILWIND & JAVASCRIPT",
     "website": "https://spinthebottleklm.netlify.app/",
     "github": "https://github.com/blameleo/spin-the-bottle.git"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": " NOTE APP",
     "logo": "./notetaker.jpg",
-    "skill": "REACT, REDUX, TAILWIND",
+    "skill": "REACT, REDUX & TAILWIND",
     "website": "https://notetaker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/note-app.git"
   }

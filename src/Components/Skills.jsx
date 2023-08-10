@@ -92,45 +92,49 @@ function Skills() {
         <Container className='border-bottom'>
           <Row className='text-center'>
               <span className='pb-3'>
-                <h2>HTML</h2>
+                <h2>HTML/CSS</h2>
                 <p>2 Years Experience</p>
               </span>
             
               <span className='pb-3'>
-                <h2>CSS</h2>
-                <p>2 Years Experience</p>
-              </span>
-              
-              <span className='pb-3'>
-                <h2>Javascript</h2>
-                <p>2 Years Experience</p>
-              </span>
-              
-              <span className='pb-3'>
-                <h2>React</h2>
+                <h2>JAVASCRIPT</h2>
                 <p>2 Years Experience</p>
               </span>
 
               <span className='pb-3'>
-                <h2>Redux Toolkit</h2>
-                <p>2 Years Experience</p>
-              </span>
-
-              <span className='pb-3'>
-                <h2>Git/Github</h2>
+                <h2>BOOTSTRAP</h2>
                 <p>2 Years Experience</p>
               </span>
               
               <span className='pb-3'>
-                <h2>Bootstrap</h2>
+                <h2>REACT</h2>
                 <p>2 Years Experience</p>
               </span>
-            
+
               <span className='pb-3'>
-              <h2>Tailwind</h2>
+              <h2>TAILWIND</h2>
               <p>2 Years Experience</p>
               </span>
               
+              <span className='pb-3'>
+                <h2>REDUX</h2>
+                <p>2 Years Experience</p>
+              </span>
+
+              <span className='pb-3'>
+                <h2>GIT/GITHUB</h2>
+                <p>2 Years Experience</p>
+              </span>
+
+              <span className='pb-3'>
+                <h2>FIREBASE</h2>
+                <p>2 Years Experience</p>
+              </span>
+
+              <span className='pb-3'>
+                <h2>WORDPRESS</h2>
+                <p>1 Year Experience</p>
+              </span>
               
               <div className='relative mb-5'>
                 <img className='oval' src="./g26.png" alt="" />
