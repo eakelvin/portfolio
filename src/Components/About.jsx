@@ -33,14 +33,14 @@ function About() {
               {/* Work on the oval for desktop view */}
               <img className='mt-5 position-absolute top-50 start-70 translate-middle-x' src="./Oval.svg" alt="" />
               <div className=''>
-                <img className='size' src='./meme.jpg' />
+                <img className='size' src='./eak.jpg' />
               </div>
             </div>
           </Row>
       </Container>
     </div>
 
-    <div className='d-none d-md-block d-sm-block d-lg-none'>
+    <div className='d-none d-md-block d-sm-block d-lg-none overflow-hidden'>
       <Container fluid className='mb-5 pb-5 border-bottom'>
         <Row>
             <div className='col-md-8 col-sm-6'>
@@ -65,19 +65,19 @@ function About() {
             <div className='col-md-4 col-sm-6'>
               {/* <img className='element-3c' src="./Oval.svg" alt="" /> */}
               <div>
-                <img className='size-sm mt-5' src='./meme.jpg' />
+                <img className='size-sm mt-5' src='./eak.jpg' />
               </div>
             </div>
           </Row>
       </Container>
     </div>
 
-    <div className='d-block d-sm-none mb-5 pb-5 border-bottom d-flex align-items-start grid-cols-3'>
+    <div className='d-block d-sm-none mb-5 pb-5 border-bottom d-flex align-items-start grid-cols-3 overflow-hidden'>
       <Container>
         
           <img className='z-1 position-absolute end-50' src="./Group 26.png" alt="" />
           <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-4' src='./eak.jpg' />
-          <img className='element' src="./Oval.png" alt="" />
+          <img className='element overflow-hidden' src="./Oval.png" alt="" />
 
           <div className='space text-center text-nowrap'>
           <span className='font'>Nice to meet you! <br /> 

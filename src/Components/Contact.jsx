@@ -101,7 +101,7 @@ function Contact() {
         </Container>
       </div>
 
-      <div className='d-block d-sm-none'>
+      <div className='d-block d-sm-none overflow-hidden'>
         <Container className='mt-5 border-bottom pb-5 p-4' style={{backgroundColor: "#242424"}}>
           <Row>
             <div className='text-center text-nowrap'>

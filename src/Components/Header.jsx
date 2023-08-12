@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { FaTwitter } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import Nav from 'react-bootstrap/Nav';
 
 
@@ -27,7 +27,9 @@ function Header() {
                 </a>
               </span>
               <span className='px-2'>
-                <FaTwitter />
+                <a href="" >
+                  <FaWhatsapp />
+                </a>
               </span>
             </Navbar.Brand>
           </Navbar.Collapse>

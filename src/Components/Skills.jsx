@@ -43,8 +43,8 @@ function Skills() {
         </Container>
       </div>
 
-      <div className='d-none d-md-block d-sm-block d-lg-none'>
-        <Container className='mb-5'>
+      <div className='d-none d-md-block d-sm-block d-lg-none overflow-hidden'>
+        <Container className='mb-5 pb-5'>
           <Row className=''>
             <Col>
               <h2>HTML</h2>
@@ -88,8 +88,8 @@ function Skills() {
         </Container>
       </div>
 
-      <div className='d-block d-sm-none'>
-        <Container className='border-bottom'>
+      <div className='d-block d-sm-none overflow-hidden'>
+        <Container className='border-bottom mb-5'>
           <Row className='text-center'>
               <span className='pb-3'>
                 <h2>HTML/CSS</h2>
@@ -136,7 +136,7 @@ function Skills() {
                 <p>1 Year Experience</p>
               </span>
               
-              <div className='relative mb-5'>
+              <div className='position-relative mt-5 pt-5'>
                 <img className='oval' src="./g26.png" alt="" />
               </div>
           
