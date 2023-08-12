@@ -46,6 +46,22 @@
     "skill": "REACT, REDUX & TAILWIND",
     "website": "https://notetaker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/note-app.git"
+  },
+  {
+    "id": 7,
+    "title": "TENZIES GAME",
+    "logo": "./tenzies.jpg",
+    "skill": "REACT & VANILLA CSS",
+    "website": "https://tenzies-game-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/tenzies-game.git"
+  },
+  {
+    "id": 8,
+    "title": "MAVE SPORTS",
+    "logo": "./mave.jpg",
+    "skill": "WORDPRESS",
+    "website": "https://mavesports.com/",
+    "github": "https://mavesports.com/"
   }
   
 
