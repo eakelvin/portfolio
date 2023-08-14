@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Header from './Header';
 import emailjs from '@emailjs/browser'
 
+
 function Contact() {
   const form = useRef();
 
@@ -139,7 +140,6 @@ function Contact() {
         </Container>
       </div>
       
-    <Header />
     </div>
   )
 }
