@@ -24,7 +24,13 @@ function About() {
                   that users love.
                 </p>
                 <div className='mt-5'>
-                  <Button style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
+                  <Button 
+                    onClick={() => window.location.href = '#contact'} 
+                    style={{backgroundColor: "#151515"}} 
+                    className='border-0 border-bottom border-success border-5' 
+                    variant="dark">
+                      CONTACT ME
+                  </Button>
                 </div>
               </div>
             </div>
@@ -57,7 +63,7 @@ function About() {
                   that users love.
                 </p>
                 <div className='mt-4'>
-                  <Button style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
+                  <Button onClick={() => window.location.href = '#contact'} style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
                 </div>
               </div>
             </div>
@@ -88,7 +94,7 @@ function About() {
              apps that users love.
           </p>
           <div className='mt-4 mb-4'>
-            <Button style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
+            <Button onClick={() => window.location.href = '#contact'} style={{backgroundColor: "#151515"}} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
           </div>
           </div>
          

@@ -14,8 +14,9 @@ function App() {
         <About />
         <Skills />
         <Project />
-        <Contact />
-      
+        <section id='contact'>
+          <Contact />
+        </section>
     </div>
   )
 }

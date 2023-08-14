@@ -26,11 +26,11 @@ function Header() {
                   <AiFillLinkedin />
                 </a>
               </span>
-              <span className='px-2'>
+              {/* <span className='px-2'>
                 <a href="" >
                   <FaWhatsapp />
                 </a>
-              </span>
+              </span> */}
             </Navbar.Brand>
           </Navbar.Collapse>
         </Container>
