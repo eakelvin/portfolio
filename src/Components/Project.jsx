@@ -18,10 +18,10 @@ function Project() {
             <h1 className='me-auto d-none d-md-block d-sm-block'>Projects</h1>
             <h2 className='me-auto mt-5 d-block d-sm-none'>Projects</h2>
             <div className='mt-5 pt-3 d-block d-sm-none'>
-                <Button className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
+                <Button onClick={() => window.location.href = '#contact'} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
             </div>
             <div className='mt-5 d-none d-md-block d-sm-block'>
-                <Button className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
+                <Button onClick={() => window.location.href = '#contact'} className='border-0 border-bottom border-success border-5' variant="dark">CONTACT ME</Button>
             </div>
         </div>
 
