@@ -50,7 +50,7 @@
   {
     "id": 7,
     "title": "TENZIES GAME",
-    "logo": "./tenzies.jpg",
+    "logo": "./tenziesgame.jpg",
     "skill": "REACT & VANILLA CSS",
     "website": "https://tenzies-game-ea.netlify.app/",
     "github": "https://github.com/eakelvin/tenzies-game.git"
@@ -58,10 +58,26 @@
   {
     "id": 8,
     "title": "MAVE SPORTS",
-    "logo": "./mave.jpg",
+    "logo": "./ms.jpg",
     "skill": "WORDPRESS",
     "website": "https://mavesports.com/",
     "github": "https://mavesports.com/"
+  },
+  {
+    "id": 9,
+    "title": "TOUR APP",
+    "logo": "./tour.jpg",
+    "skill": "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
+    "website": "https://tour-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/EA-Tour.git"
+  },
+  {
+    "id": 10,
+    "title": "API PROJECTS",
+    "logo": "./API.jpg",
+    "skill": "HTML, CSS, JAVASCRIPT, REST API",
+    "website": "https://api-app-ea.netlify.app/",
+    "github": "https://github.com/eakelvin/Api-projects.git"
   }
   
 
