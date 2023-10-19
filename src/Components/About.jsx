@@ -71,7 +71,7 @@ function About() {
             <div className='col-md-4 col-sm-6'>
               {/* <img className='element-3c' src="./Oval.svg" alt="" /> */}
               <div>
-                <img className='size-sm mt-5' src='./public/photo_2_2023-10-19_10-41-00.jpg' />
+                <img className='size-sm mt-5' src='./photo_2_2023-10-19_10-41-00.jpg' />
               </div>
             </div>
           </Row>
@@ -82,7 +82,7 @@ function About() {
       <Container>
         
           <img className='z-1 position-absolute end-50' src="./Group 26.png" alt="" />
-          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-5' src='./public/photo_2_2023-10-19_10-41-00.jpg' />
+          <img className='z-5 position-absolute top-50 start-50 translate-middle size-sm mt-5' src='./photo_2_2023-10-19_10-41-00.jpg' />
           <img className='element overflow-hidden' src="./Oval.png" alt="" />
 
           <div className='space text-center text-nowrap'>
