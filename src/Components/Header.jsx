@@ -22,7 +22,7 @@ function Header() {
                 </a>
               </span>
               <span className='px-2'>
-                <a target='blank' href="https://www.linkedin.com/in/kelvin-akaba-2883a81b3/">
+                <a target='blank' href="https://www.linkedin.com/in/kelvin-akaba/">
                   <AiFillLinkedin />
                 </a>
               </span>
