@@ -1,5 +1,5 @@
 "use client"
-import { socials } from '@/app/contact/page'
+import { socials } from '@/utils/links'
 import Link from 'next/link'
 import React from 'react'
 

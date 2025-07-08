@@ -3,27 +3,7 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "@/components/nav";
 import { Card } from "@/components/card";
-
-export const socials = [
-    {
-        icon: <Linkedin size={20} />,
-        href: "https://www.linkedin.com/in/kelvin-akaba/",
-        label: "LinkedIn",
-        handle: "Kelvin Akaba",
-    },
-    {
-        icon: <Mail size={20} />,
-        href: "mailto:akabakelvin@gmail.com",
-        label: "Email",
-        handle: "akabakelvin@gmail.com",
-    },
-    {
-        icon: <Github size={20} />,
-        href: "https://github.com/eakelvin",
-        label: "Github",
-        handle: "eakelvin",
-    },
-];
+import { socials } from "@/utils/links";
 
 export default function Example() {
     return (
