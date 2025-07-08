@@ -3,6 +3,9 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 export const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
+  { name: "Resume", href: "https://flowcv.com/resume/r8p9dbnsrn" },
+  // { name: "About", href: "/about" },
+  // { name: "Home", href: "/" },
 ];
 
 export const socialLinks = {
