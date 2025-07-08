@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Navigation } from "@/components/nav";
 import { Card } from "@/components/card";
 
-const socials = [
+export const socials = [
     {
         icon: <Linkedin size={20} />,
         href: "https://www.linkedin.com/in/kelvin-akaba/",

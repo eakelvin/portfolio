@@ -4,9 +4,7 @@ export const navigation = [
 ];
 
 export const socialLinks = {
-  // twitter: "https://x.com/",
   github: "https://github.com/eakelvin",
-  // instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/kelvin-akaba/",
   email: "mailto:akabakelvin@gmail.com",
 };

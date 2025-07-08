@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Particles from "@/components/particles";
 import { navigation } from "@/utils/links";
 import Image from "next/image";
@@ -47,6 +48,7 @@ export default function Home() {
           Currently expanding my skills by learning Python.
         </h2>
       </div>
+      <Footer />
     </div>
   );
 }
