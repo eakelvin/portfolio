@@ -18,11 +18,10 @@ export const metadata: Metadata = {
     default: "Kelvin Akaba",
     template: "%s | Kelvin Akaba",
   },
-  description: "Full-stack developer, open-source enthusiast.",
+  description: "Full-stack developer.",
   openGraph: {
     title: "Kelvin Akaba",
-    description:
-      "Full-stack developer, open-source enthusiast.",
+    description: "Full-stack developer.",
     url: "",
     siteName: "",
     images: [

@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Particles from "@/components/particles";
 import { navigation } from "@/utils/links";
+import { Drama } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,11 +10,14 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
+          <Link href="/">
+            <Drama size={30} />
+          </Link>
           {navigation.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+              className="text-sm duration-500 text-zinc-300 hover:text-zinc-300"
             >
               {item.name}
             </Link>
@@ -25,6 +29,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
+      {/* ICON */}
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Kelvin Akaba
       </h1>
@@ -41,10 +46,10 @@ export default function Home() {
             unkey.dev
           </Link> to solve API authentication and authorization for developers.
         </h2> */}
-        <h2 className="text-sm text-zinc-500">
+        <h2 className="text-sm text-zinc-300">
           I turn complex problems into clean, efficient solutions using the MERN stack—because great software should feel effortless, like magic.
         </h2>
-        <h2 className="text-sm text-zinc-500">
+        <h2 className="text-sm text-zinc-300">
           Currently expanding my skills by learning Python.
         </h2>
       </div>

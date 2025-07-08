@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { FileUser, Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export const navigation = [
   { name: "Projects", href: "/projects" },
@@ -21,6 +21,12 @@ export const socials = [
     label: "LinkedIn",
     handle: "Kelvin Akaba",
   },
+  // {
+  //   icon: <FileUser size={20} />,
+  //   href: "https://flowcv.com/resume/r8p9dbnsrn",
+  //   label: "",
+  //   handle: "Resume",
+  // },
   {
     icon: <Mail size={20} />,
     href: "mailto:akabakelvin@gmail.com",
