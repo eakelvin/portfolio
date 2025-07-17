@@ -32,7 +32,7 @@ export const Navigation: React.FC = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-sm duration-500 text-zinc-300 hover:text-zinc-300"
+                                className="text-sm duration-500 text-zinc-300 hover:text-cyan-300"
                             >
                                 {item.name}
                             </Link>

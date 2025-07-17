@@ -14,7 +14,7 @@ const Footer = () => {
                 </span>
                 <div className="flex sm:justify-center sm:mt-0">
                     {socials.map((link, index) => (
-                        <Link key={index} href={link.href} className='text-gray-300 ms-5'>
+                        <Link key={index} href={link.href} className='text-gray-300 hover:text-cyan-200 ms-5'>
                             {link.icon}
                         </Link>
                     ))}

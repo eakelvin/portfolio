@@ -66,7 +66,7 @@ export const Project = () => {
                         </h2>
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
-                            <AvatarFallback>CN</AvatarFallback>
+                            <AvatarFallback>EA</AvatarFallback>
                         </Avatar>
                         <p className='text-sm'>
                             {work.description}
