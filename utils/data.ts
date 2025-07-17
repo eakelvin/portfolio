@@ -1,30 +1,68 @@
+const crLogin = require("@/assets/images/cr-login.png").default;
+const crHome = require("@/assets/images/cr-home.png").default;
+const crRates = require("@/assets/images/cr-rates.png").default;
+const crCC = require("@/assets/images/cr-cc.png").default;
+const crFooter = require("@/assets/images/CR-footer.png").default;
+
+const vcAbout = require("@/assets/images/vc-about.png").default;
+const vcBlog = require("@/assets/images/vc-blog.png").default;
+const vcDirectory = require("@/assets/images/vc-directory.png").default;
+const vcHome = require("@/assets/images/vc-home.png").default;
+const vcCarousel = require("@/assets/images/vc-homeCarousel.png").default;
+
+const edAi = require("@/assets/images/ed-ai.png").default;
+const edDashboard = require("@/assets/images/ed-dashboard.png").default;
+const edHome = require("@/assets/images/ed-home.png").default;
+const edHomepage = require("@/assets/images/ed-homepage.png").default;
+const edLogin = require("@/assets/images/ed-login.png").default;
+const edNurse = require("@/assets/images/ed-nurseDM.png").default;
+const edPlan = require("@/assets/images/ed-planDM.png").default;
+const edProfile = require("@/assets/images/ed-profile.png").default;
+const edAiDark = require("@/assets/images/ed-darkAi.png").default;
+
+const mpH = require("@/assets/images/mp-home.png").default;
+const mpHo = require("@/assets/images/mp-homep.png").default;
+const mpHom = require("@/assets/images/mp-homepa.png").default;
+const mpHome = require("@/assets/images/mp-dropdown.png").default;
+
 export default [
   {
     id: 1,
-    title: "CEDIRATES",
-    description: "Compare Exchange Rates and Fuel Prices",
-    logo: ["/images/cedi.png", "/images/cedi2.png"],
+    title: "CEDIRATES - Compare Exchange Rates and Fuel Prices",
+    description:
+      "This platform provides up-to-date financial and economic information, built with Next.js, Tailwind CSS with shadcn/ui, Node.js, Express, and MongoDB. The homepage features RSS news feeds, live exchange rate widgets, current fuel prices, and interactive poll questions. Users can explore detailed exchange rates for the dollar, euro, and pound across banks, forex bureaus, card payments, money transfer services, and crypto fintech companies, along with FAQs and company advertisements. The fuel section displays prices for petrol, diesel, and premium. A built-in currency converter includes a historical chart and supports conversions across multiple currencies",
+    logo: [crLogin, crHome, crRates, crCC, crFooter],
     skills: ["NEXT", "TAILWIND", "EXPRESS", "NODEJS", "MONGODB"],
     website: "https://cedirates.com/",
-    github: "https://github.com/eakelvin",
     status: "true",
   },
   {
     id: 2,
-    title: "VILLAGE CREATORS",
+    title: "VILLAGE CREATORS - Celebrate creativity",
+    // description: ", nurture growth, build community connections",
     description:
-      "Celebrate creativity, nurture growth, build community connections",
-    logo: ["/images/vc.png", "/images/vc2.png"],
-    skills: ["NEXT", "BOOTSTRAP", "SANITY"],
+      "A content-managed website built with Sanity CMS and Nextjs featuring an informative carousel, a user form to collect contact details for updates, blog posts, and a directory page showcasing various businesses. All content is managed centrally through the CMS, allowing easy updates and content control.",
+    logo: [vcHome, vcCarousel, vcBlog, vcDirectory],
+    skills: ["NEXT", "BOOTSTRAP", "SANITY CMS"],
     website: "https://www.villagecreators.net/",
-    github: "https://github.com/eakelvin/village-creators-main.git",
     status: "true",
   },
   {
     id: 3,
-    title: "EDFRICA",
-    description: "Educative Management System",
-    logo: ["/images/edfrica.jpg", "/images/edfrica2.jpg"],
+    title: "EDFRICA - Educative Management System",
+    description:
+      "An AI-powered exam platform built with React and MUI on the frontend, and Supabase/Node.js on the backend. Users access a central dashboard where they can take exams, interact with AI for questions, and receive personalized learning support. The platform features AI-driven quiz generation, progress tracking, and exam analysis. A scoreboard ranks users against others, while the notification panel and customizable settings (including contrast, layout, and direction) enhance user experience.",
+    logo: [
+      edHome,
+      edHomepage,
+      edLogin,
+      edDashboard,
+      edAiDark,
+      edAi,
+      edNurse,
+      edPlan,
+      edProfile,
+    ],
     skills: ["REACT", "MUI", ""],
     website: "https://www.edfrica.com/",
     // website: "https://app.edfrica.com/",
@@ -33,53 +71,13 @@ export default [
   },
   {
     id: 4,
-    title: "MAVE SPORTS",
-    description: "News/Blog - Football and Basketball content",
-    logo: ["/images/mave1.jpg", "/images/mave2.jpg"],
+    title: "MAVE SPORTS - Sports Content",
+    description:
+      "MaveSports is a WordPress website designed for sports-related content, with a strong focus on design, aesthetics, and modern style. It features informative sliders, unique carousels, dropdown menus, and search functionality to enhance user experience and content discovery.",
+    logo: [mpH, mpHo, mpHom, mpHome],
     skills: ["WORDPRESS"],
     website: "https://mavesportsnetwork.com/",
     status: "true",
-  },
-  {
-    id: 5,
-    title: "DEV JOBS",
-    description: "A webapp to help users search for jobs",
-    logo: ["/images/dev.jpg", "/images/dev2.jpg"],
-    skills: ["REACT", "BOOTSTRAP"],
-    website: "https://devjobs-ea.netlify.app/",
-    github: "https://github.com/eakelvin/DevJobs-Project.git",
-    status: "false",
-  },
-  {
-    id: 6,
-    title: "EA TOUR",
-    description: "Explore and discover the best tourism content in Ghana",
-    logo: ["/images/tour.jpg", "/images/tour2.jpg"],
-    skills: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
-    website: "https://tour-ea.netlify.app/",
-    github: "https://github.com/eakelvin/EA-Tour.git",
-    status: "false",
-  },
-  {
-    id: 7,
-    title: "COUNTRY APP",
-    description:
-      "A website that contains details of all countries in the world",
-    logo: ["/images/country-app.jpg", "/images/country-app2.jpg"],
-    skills: ["API", "TAILWIND CSS", "REACT"],
-    website: "https://countries-app-ea.netlify.app/",
-    github: "https://github.com/eakelvin/countries-app.git",
-    status: "false",
-  },
-  {
-    id: 8,
-    title: "API PROJECTS",
-    description: "A collection of different web apps that utilize APIs",
-    logo: ["/images/API.jpg", "/images/API2.jpg"],
-    skills: ["HTML", "VANILLA CSS", "JAVASCRIPT", "REST API"],
-    website: "https://api-app-ea.netlify.app/",
-    github: "https://github.com/eakelvin/Api-projects.git",
-    status: "false",
   },
 
   // {
