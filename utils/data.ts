@@ -2,7 +2,7 @@ const crLogin = require("@/assets/images/cr-login.png").default;
 const crHome = require("@/assets/images/cr-home.png").default;
 const crRates = require("@/assets/images/cr-rates.png").default;
 const crCC = require("@/assets/images/cr-cc.png").default;
-const crFooter = require("@/assets/images/CR-footer.png").default;
+const crFooter = require("@/assets/images/cr-footer.png").default;
 
 const vcAbout = require("@/assets/images/vc-about.png").default;
 const vcBlog = require("@/assets/images/vc-blog.png").default;
